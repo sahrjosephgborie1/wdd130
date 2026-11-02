@@ -1,0 +1,48 @@
+header p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+}
+
+picture img {
+    width: 450px;
+    height: auto;
+    box-shadow: 5px 5px 5px 5px black;
+    display: block;
+    margin: 0 auto;
+
+}
+
+section {
+    background-color: rgb(209, 207, 207);
+    width: 450px;
+    margin: 0 auto;
+    display: block;
+
+}
+
+section h2 {
+    border-bottom: 1px solid black;
+    text-align: justify;
+}
+
+section p {
+    background-color: rgb(209, 207, 207);
+    color: black;
+    text-align: left;
+}
+
+footer p {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 15px;
+}
