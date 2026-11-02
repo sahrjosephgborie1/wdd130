@@ -1,9 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: Arial, Helvetica, sans-serif;
     line-height: 1.6;
 }
 
-header {
+header, footer {
     background-color: #333;
     color: white;
     padding: 10px 0;
@@ -21,6 +26,9 @@ h1 {
     margin: 10px;
     text-align: center;
 }
+h2{
+    border-bottom: 1px solid #222;
+}
 
 img {
     width: 100%;
@@ -37,11 +45,13 @@ section {
     font-size: .9rem;
 }
 
-p {
-    color: black;
-    padding: 5px 0;
-    /* 24px - 1.5rem */
+section p{
+    margin: 10px;
+}
 
+ul{
+    margin: 10px 20px;
+    
 }
 
 footer {
@@ -49,6 +59,6 @@ footer {
     color: white;
     padding: 10px 0;
     text-align: center;
-    /* 24px - 1.5rem */
-    font-size: 1.5rem;
+    font-size: .9rem;
+    
 }
