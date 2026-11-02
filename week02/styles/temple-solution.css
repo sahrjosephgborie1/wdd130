@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    /* 24px - 1.5rem */
+    font-size: 1.5rem;
+}
+
+main {
+    width: 400px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 10px;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 30px #333;
+}
+
+section {
+    margin: 20px 0;
+    border: 1px solid rgb(0 0 0 / 10%);
+    padding: 10px;
+    background-color: rgba(232, 227, 227, 0.7);
+    /* 9% of the root */
+    font-size: .9rem;
+}
+
+p {
+    color: black;
+    padding: 5px 0;
+    /* 24px - 1.5rem */
+
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+    /* 24px - 1.5rem */
+    font-size: 1.5rem;
+}
