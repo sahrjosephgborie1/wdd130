@@ -1,18 +1,22 @@
-main{
+main {
     max-width: 840px;
 }
+
 nav {
     background-color: darkblue;
     padding: 10px;
 }
+
 nav a {
     color: white;
     display: block;
     padding: 20px;
 }
+
 h1 {
     color: darkblue;
 }
+
 main img {
     width: 150px;
     height: auto;
@@ -20,10 +24,12 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
+
 p {
     padding: 0;
 }
-aside{
+
+aside {
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgb(0 0 0 / 0.2);
@@ -32,11 +38,14 @@ aside{
     color: #333;
     text-align: center;
 }
-aside img{
+
+aside img {
     width: 200px;
     height: auto;
 }
-footer{
+
+/* Footer */
+footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
