@@ -4,18 +4,9 @@
     box-sizing: border-box;
 }
 
-/* Class Selectors */
-.box {
-    margin: 1rem;
-    border: 1px solid rgb(0 0 0 / 0.2);
-    padding: 1rem;
-    background-color: var(--color, white);
-    color: #333;
-}
-
 :root {
     --color: white;
-    --main-bg-color: navy;
+    --main-bg-color: rgb(25, 25, 217);
 }
 
 main {
@@ -37,10 +28,12 @@ nav a {
 
 h1 {
     color: var(--main-bg-color);
+    padding: 20px;
 }
 
 main img {
     float: right;
+    margin: 0 0 1rem 1rem;
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -49,27 +42,29 @@ main img {
 }
 
 p {
-    padding: 0;
+    padding: 35px;
 }
 
 aside {
-    width: 20rem;
+    width: 20em;
+    text-align: center;
+    position: relative;
     text-align: center;
     border: 1px solid black;
     padding: 10px;
 }
 
-aside h2 {
-    position: absolute;
-
-    color: var(--main-bg-color);
-
-}
-
 aside img {
-    width: 200px;
+    width: 15em;
     height: auto;
     right: 150px;
+}
+
+aside h2 {
+    position: absolute;
+    top: 150px;
+    left: 45px;
+    color: var(--main-bg-color);
 }
 
 /* Footer */
@@ -77,4 +72,17 @@ footer {
     margin-top: 1em;
     border-top: 1px solid #000;
     text-align: center;
+}
+
+/* Class Selectors */
+.box {
+    margin: 1rem;
+    border: 1px solid rgba(0 0 0 / .1);
+    padding: 1rem;
+    background-color: rgba(226, 217, 217, 0.61);
+    color: #000;
+}
+
+.indent {
+    padding-left: 2rem;
 }
