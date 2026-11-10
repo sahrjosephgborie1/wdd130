@@ -29,6 +29,7 @@ nav a {
 h1 {
     color: var(--main-bg-color);
     padding: 20px;
+    font-family: "Londrina Solid", sans-serif;
 }
 
 main img {
