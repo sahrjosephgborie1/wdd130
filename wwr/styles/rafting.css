@@ -79,6 +79,7 @@ h1 {
     top: 20px;
     width: 100%;
     padding: 16px;
+    margin: 1px;
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
@@ -104,8 +105,13 @@ article {
 
 }
 
+.hero article {
+    align-items: center;
+    margin: 10px;
+}
+
 .hero article p {
-    padding: 5px;
+    padding: 1px;
 }
 
 section h2 {
