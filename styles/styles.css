@@ -1,12 +1,22 @@
+:root {
+    --primary-color: #055a05;
+    /* forest green */
+    --secondary-color: #f4a261;
+    /* warm sand */
+    --accent1-color: #1d3e4b;
+    /* dark slate blue */
+    --accent2-color: #e9c46a;
+    /* light golden yellow */
+    --heading-font: "Times New Roman", "Georgia", serif;
+    --body-font: Arial, Helvetica, sans-serif;
+    --new-heading-font: "Londrina Solid", sans-serif;
+    --gray-color: rgba(226, 217, 217, 0.61);
+}
+
 * {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-}
-
-:root {
-    --color: white;
-    --main-bg-color: rgb(25, 25, 217);
 }
 
 main {
@@ -15,13 +25,13 @@ main {
 }
 
 nav {
-    background-color: var(--main-bg-color);
+    background-color: var(--accent1-color);
     padding: 10px;
 }
 
 nav a {
     /* color: white; */
-    color: var(--color, white);
+    color: white;
     display: block;
     padding: 20px;
 }
@@ -29,7 +39,7 @@ nav a {
 h1 {
     color: var(--main-bg-color);
     padding: 20px;
-    font-family: "Londrina Solid", sans-serif;
+    font-family: var(--heading-font);
 }
 
 main img {
@@ -65,7 +75,7 @@ aside h2 {
     position: absolute;
     top: 150px;
     left: 45px;
-    color: var(--main-bg-color);
+    color: navy;
 }
 
 /* Footer */
@@ -80,7 +90,7 @@ footer {
     margin: 1rem;
     border: 1px solid rgba(0 0 0 / .1);
     padding: 1rem;
-    background-color: rgba(226, 217, 217, 0.61);
+    background-color: var(--gray-color);
     color: #000;
 }
 
