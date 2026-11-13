@@ -3,7 +3,7 @@
     /* forest green */
     --secondary-color: #f4a261;
     /* warm sand */
-    --accent1-color: #264653;
+    --accent1-color: #1d3e4b;
     /* dark slate blue */
     --accent2-color: #e9c46a;
     /* light golden yellow */
@@ -56,13 +56,14 @@ article {
 }
 
 .socialmedia img {
-    width: 70px;
+    width: 80px;
     height: auto;
     padding: 20px;
 }
 
 .hero {
     position: relative;
+    width: 100%;
 }
 
 /* hero image */
@@ -104,6 +105,9 @@ h1 {
     bottom: 20px;
     margin: 0;
     padding: 10px;
+    right: 20px;
+    left: 20px;
+    width: auto;
     background-color: var(--accent1-color);
     color: white;
     opacity: 0.8;
@@ -114,7 +118,6 @@ h1 {
 .hero article p {
     padding: 1px;
     margin: 0;
-    font-size: small;
 }
 
 article {
