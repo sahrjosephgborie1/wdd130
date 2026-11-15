@@ -25,13 +25,15 @@ main {
 }
 
 nav {
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
     background-color: var(--primary-color);
-    padding: 10px;
+    padding: 1rem;
 }
 
 nav a {
-    display: block;
     text-decoration: none;
     font-size: 1.2rem;
     font-weight: 700;
@@ -42,11 +44,10 @@ nav a {
 h1 {
     color: var(--primary-color);
     margin: 1rem;
-    font-family: var(--heading-font);
+    font-family: var(--new-heading-font);
     border-bottom: 1px solid black;
     padding: 20px;
     font-size: 30px;
-
 }
 
 main img {
@@ -66,20 +67,19 @@ p {
 aside {
     width: 20rem;
     position: relative;
-    grid-column: 1/1;
     grid-row: 1/2;
 
 }
 
 aside img {
-    width: 15em;
+    width: 18em;
     height: auto;
     right: 150px;
 }
 
 aside h2 {
     position: absolute;
-    top: 150px;
+    top: 11rem;
     left: 40px;
     color: var(--primary-color);
     background-color: white;
