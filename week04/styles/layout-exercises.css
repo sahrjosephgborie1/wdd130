@@ -24,18 +24,26 @@ div {
 .flex {
     background-color: #aba;
     /* write declarations here */
-
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid {
     background-color: #abb;
     /* write declarations here */
+    display: grid;
+    align-items: center;
+    text-align: center;
 
 }
 
 .container2 {
     /* write declarations here */
-
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 .two {
@@ -45,11 +53,19 @@ div {
 
 .container3 {
     /* write declarations here */
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
 
 }
 
 .columns-3 {
     /* write declaration here */
+    display: grid;
+    /* grid-column-start: 1;
+    grid-column-end: 4; */
+    grid-column: 1/4;
+    text-align: center;
 
 }
 

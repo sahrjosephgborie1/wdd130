@@ -8,6 +8,8 @@ body {
     background-color: lightyellow;
     /* Display & Wrap */
     display: flex;
+    flex-direction: row;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
