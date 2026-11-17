@@ -225,6 +225,8 @@ footer p {
 footer nav {
     grid-column: 2;
     justify-self: end;
+    display: flex;
+    gap: 10px;
 }
 
 /* .socialmedia a {
