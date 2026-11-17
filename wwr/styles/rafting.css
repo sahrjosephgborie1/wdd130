@@ -20,11 +20,6 @@ body {
     color: var(--accent1-color);
 }
 
-body {
-    font-family: var(--body-font);
-    color: var(--accent1-color);
-}
-
 header,
 footer {
     width: 840px;
