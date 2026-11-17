@@ -1,10 +1,9 @@
 :root {
     --primary-color: #055a05;
-    /* forest green */
-    /* warm sand */
     --accent1-color: #1d3e4b;
-    /* dark slate blue */
-    /* light golden yellow */
+    --light-bg: #f4f4f4;
+    --white: #ffffff;
+    --black: #000000;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -20,16 +19,15 @@ body {
     color: var(--accent1-color);
 }
 
-header,
-footer {
-    width: 840px;
-    margin: 0 auto;
+header {
     /* Display grid */
     display: grid;
     grid-template-columns: 250px 1fr;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #f4f4f4;
+    background-color: var(--light-bg);
+    width: 840px;
+    margin: 0 auto;
 
 }
 
@@ -37,7 +35,7 @@ header img {
     width: 100px;
     height: auto;
     justify-self: center;
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
 
 header nav {
@@ -49,10 +47,10 @@ header nav {
 
 header nav a {
     text-decoration: none;
-    color: #333;
+    color: #333333;
     font-weight: bold;
     padding: 0.5rem 1rem;
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
 
 main {
@@ -63,7 +61,7 @@ main {
 
 footer h1,
 h2 {
-    font-family: var(--new-heading-font);
+    font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
@@ -97,7 +95,7 @@ h1 {
     text-align: center;
     opacity: 0.7;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--white);
     font-family: var(--heading-font);
 }
 
@@ -106,7 +104,7 @@ h1 {
     width: 90px;
     height: auto;
     float: right;
-    border: 1px solid white;
+    border: 1px solid var(--white);
     flex-shrink: 0;
     margin-left: 15px;
 
@@ -121,7 +119,7 @@ h1 {
     left: 20px;
     width: auto;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--white);
     opacity: 0.8;
     align-items: center;
     justify-content: space-between;
@@ -134,7 +132,7 @@ h1 {
 
 article {
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--white);
     width: 100%;
     position: absolute;
     bottom: 1px;
@@ -169,7 +167,7 @@ article {
     justify-self: center;
     width: 200px;
     height: auto;
-    border: 1px solid black;
+    border: 1px solid var(--black);
 }
 
 .two {
@@ -204,7 +202,7 @@ section h2 {
     text-align: center;
     padding: 1rem;
     background-color: var(--accent1-color);
-    color: white;
+    color: var(--white);
 }
 
 footer {
@@ -212,6 +210,10 @@ footer {
     grid-template-columns: 1fr 200px;
     align-items: end;
     position: relative;
+    padding: 1rem 2rem;
+    background-color: var(--light-bg);
+    width: 840px;
+    margin: 0 auto;
 }
 
 footer p {
