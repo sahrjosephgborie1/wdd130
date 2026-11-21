@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Poll-form</title>
+    <link rel="stylesheet" href="styles/poll-form.css">
 </head>
 
 <body>
@@ -15,31 +16,41 @@
         <form action="getinfo">
             <fieldset>
                 <legend>Contact Information</legend>
-                <label for="fullname">Full Name:</label>
-                <input type="text" id="fullname" name="fullname" required>
-                <label for="useremail">Email:</label>
-                <input type="email" id="useremail" name="useremail" required>
+                <div class="form-item label-narrow">
+                    <label for="fullname">Full Name:</label>
+                    <input type="text" id="fullname" name="fullname" required>
+                </div>
+                <div class="form-item label-narrow">
+                    <label for="useremail">Email:</label>
+                    <input type="email" id="useremail" name="useremail" required>
+                </div>
+
             </fieldset>
             <fieldset>
                 <legend>Questions</legend>
+                <div class="form-item label-wide">
+                    <label for="browser">What is your favorite internet browser?</label>
+                    <select name="browser" id="browser">
+                        <option value="chrome">Chrome</option>
+                        <option value="firefox">Firefox</option>
+                        <option value="safari">Safari</option>
+                        <option value="edge">Edge</option>
+                        <option value="brave">Brave</option>
+                        <option value="other">other</option>
+                    </select>
+                </div>
+                <div class="form-item label-wide">
+                    <label for="pet">Do you have a household pet?</label>
+                    <input type="checkbox" id="pet" name="pet">
+                </div>
+                <div class="form-item">
+                    <label for="places" class="places">List the places you have lived.</label>
+                    <textarea name="places" id="places" rows="4" placeholder="Rokel, Uyo, Etinan, Lagos, Etinan North"></textarea>
+                </div>
+                <div class="button">
+                    <button type="submit">Submit Pool</button>
+                </div>
 
-                <label for="browser">What is your favorite internet browser?</label>
-                <select name="browser" id="browser">
-                    <option value="chrome">Chrome</option>
-                    <option value="firefox">Firefox</option>
-                    <option value="safari">Safari</option>
-                    <option value="edge">Edge</option>
-                    <option value="brave">Brave</option>
-                    <option value="other">other</option>
-                </select>
-
-                <label for="pet">Do you have a household pet?</label>
-                <input type="checkbox" id="pet" name="pet">
-
-                <label for="places">List the places you have lived.</label>
-                <textarea name="places" id="places" rows="4" placeholder="Rokel, Uyo, Etinan, Lagos, Etinan North"></textarea>
-
-                <button type="submit">Submit Pool</button>
             </fieldset>
         </form>
     </main>
