@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <link rel="stylesheet" href="styles/table.css">
+</head>
+
+<body>
+    <table>
+        <caption>Team Records and Player Counts by League</caption>
+
+        <thead>
+            <tr>
+                <th scope="col">League</th>
+                <th scope="col">Team</th>
+                <th scope="col">Record</th>
+                <th scope="col">Player Count</th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <tr>
+                <th rowspan="2" scope="rowgroup">Southern</th>
+                <td>Parana</td>
+                <td>52-19</td>
+                <td>23</td>
+            </tr>
+            <tr>
+                <td>Catarine</td>
+                <td>49-24</td>
+                <td>10</td>
+            </tr>
+            <tr>
+                <th rowspan="3" scope="rowgroup">Western</th>
+                <td>Lacerda</td>
+                <td>92-70</td>
+                <td>27</td>
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td>75-87</td>
+                <td>20</td>
+            </tr>
+            <tr>
+                <td>Rondonia</td>
+                <td>10-7</td>
+                <td>10</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th colspan="3" scope="rowgroup">Total Players</th>
+                <td>92</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+
+</html>
