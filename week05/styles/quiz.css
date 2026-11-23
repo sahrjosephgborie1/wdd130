@@ -41,7 +41,7 @@ label,
 input,
 button,
 select {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
     padding: 0.5rem
 }
 
@@ -78,6 +78,11 @@ button:focus-visible {
 .quiz-item {
     grid-template-columns: 1fr;
     margin: 0.5rem 0;
+}
+
+.numbering {
+    color: navy;
+    font-weight: bold;
 }
 
 .code {
