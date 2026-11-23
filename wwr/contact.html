@@ -2,48 +2,90 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us | Rokel Community Rafting</title>
-    <meta name="description" content="Contact Rokel Community Rafting along the Waterloo Highway in Sierra Leone for trip bookings, general inquiries, directions, and group reservations.">
-    <meta name="author" content="Sahr Joseph Gborie">
-    <link rel="stylesheet" href="styles/rafting.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us | Rokel Community Rafting</title>
+  <meta name="description" content="Contact Rokel Community Rafting along the Waterloo Highway in Sierra Leone for trip bookings, general inquiries, directions, and group reservations.">
+  <meta name="author" content="Sahr Joseph Gborie">
+  <link rel="stylesheet" href="styles/rafting.css">
 </head>
 
 <body>
-    <!--Use the same header, navigation, and footer.  -->
-    <header>
-        <img src="images/wwrlogo.jpg" alt="Rokel Community Rafting Logo">
+  <!--Use the same header, navigation, and footer.  -->
+  <header>
+    <img src="images/wwrlogo.jpg" alt="Rokel Community Rafting Logo">
 
-        <nav>
-            <a href="index.html">Home</a>
-            <a href="about.html">About Us</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact Us</a>
-        </nav>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About Us</a>
+      <a href="trips.html">Trips</a>
+      <a href="contact.html">Contact Us</a>
+    </nav>
 
-    </header>
+  </header>
 
-    <!-- Main -->
-    <main>
+  <!-- Main -->
 
-    </main>
+  <main>
+    <!-- Address -->
+    <address>
+      <strong>Rokel Community Rafting</strong><br>
+      Mile 18, Waterloo Highway,<br>
+      Rokel Community, Western Area Rural, Sierra Leone <br>
+      <a href="tel:+23276555014">+232 76 555 014</a> / <a href="tel:+23288555019">+232 88 555 019</a><br>
+      <a href="mailto:info@rokelcommunityrafting.sl">info@rokelcommunityrafting.sl</a>
+    </address>
 
-    <!-- Use the same header, navigation, and footer. -->
-    <footer>
-        <p>&copy; 2026 - Rokel Rafting site - Sahr Joseph Gborie | All rights reserved</p>
-        <nav class="socialmedia">
-            <a href="https://www.facebook.com/">
-                <img src="images/facebook.svg" alt="Facebook">
-            </a>
-            <a href="https://instagram.com">
-                <img src="images/instagram.svg" alt="Instagram">
-            </a>
-            <a href="https://linkedin.com">
-                <img src="images/linkedin.svg" alt="Linkedin">
-            </a>
-        </nav>
-    </footer>
+    <div class="map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11163.939903963917!2d-13.096231853451078!3d8.396860821029009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssl!4v1795454249981!5m2!1sen!2ssl" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    </div>
+    <form action="contact">
+      <!-- Full Name -->
+      <label for="fullname">Name
+        <input type="text" id="fullname" name="fullname">
+      </label>
+      <!-- Email -->
+      <label for="email">Email
+        <input type="email" id="email" name="email">
+      </label>
+
+      <!-- Message Purpose -->
+
+      <label for="inquiry">
+        <input type="radio" id="inquiry" name="purpose" value="inquiry" required>
+        General inquiry
+      </label>
+
+      <label for="reservation">
+        <input type="radio" id="reservation" name="purpose" value="reservation">
+        Reservation Question
+      </label>
+
+      <label for="suggestion">
+        <input type="radio" id="suggestion" name="purpose" value="suggestion">
+        Website Suggestion
+      </label>
+
+    </form>
+
+    <h2>Send Us a Message</h2>
+  </main>
+
+  <!-- Use the same header, navigation, and footer. -->
+  <footer>
+    <p>&copy; 2026 - Rokel Rafting site - Sahr Joseph Gborie | All rights reserved</p>
+    <nav class="socialmedia">
+      <a href="https://www.facebook.com/">
+        <img src="images/facebook.svg" alt="Facebook">
+      </a>
+      <a href="https://instagram.com">
+        <img src="images/instagram.svg" alt="Instagram">
+      </a>
+      <a href="https://linkedin.com">
+        <img src="images/linkedin.svg" alt="Linkedin">
+      </a>
+    </nav>
+  </footer>
 </body>
 
 </html>
