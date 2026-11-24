@@ -357,6 +357,7 @@ button:focus-visible {
     text-align: center;
     padding: 1rem;
     background-color: var(--white);
+    background-color: var(--light-bg);
 }
 
 .employee figure {
