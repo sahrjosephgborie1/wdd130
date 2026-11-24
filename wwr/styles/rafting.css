@@ -2,6 +2,7 @@
     --primary-color: #055a05;
     --accent1-color: #1d3e4b;
     --light-bg: #f4f4f4;
+    --green: #237f1e;
     --white: #ffffff;
     --black: #000000;
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -232,12 +233,15 @@ footer nav {
 address {
     text-align: center;
     font-style: normal;
-    padding: 1.5rem;
+    padding: 0 0 1.5rem;
     font-weight: bold;
 }
 
-.contact-header h1 {
+.contact-title {
     font-size: 2rem;
+    text-align: center;
+    margin: 1rem 0 0;
+    font-family: var(--heading-font);
 }
 
 .map-form {
@@ -307,7 +311,6 @@ input[type="checkbox"] {
 
 .purposes {
     grid-column: 2;
-    margin-left: 0;
     margin-left: 2.2rem;
     text-align: start;
     font-weight: bold;
@@ -316,7 +319,7 @@ input[type="checkbox"] {
 button {
     margin: 1rem 0;
     background-color: var(--accent1-color);
-    color: #fff;
+    color: var(--white);
     border-radius: .5rem;
     padding: .75rem;
     font-size: 1.2rem;
@@ -328,7 +331,7 @@ button {
 
 button:hover,
 button:focus-visible {
-    background-color: rgb(0, 109, 0);
+    background-color: var(--green);
 }
 
 .employee {
@@ -338,7 +341,7 @@ button:focus-visible {
     position: relative;
     margin-top: 5px;
     width: 840px;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
     border: 2px solid var(--black);
 }
 
