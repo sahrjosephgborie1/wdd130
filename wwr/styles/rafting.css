@@ -229,15 +229,128 @@ footer nav {
     gap: 10px;
 }
 
-/* .socialmedia a {
-    text-decoration: none;
+address {
+    text-align: center;
+    font-style: normal;
+    padding: 1.5rem;
+    font-weight: bold;
 }
 
-.socialmedia img {
-    width: 70px;
-    height: auto;
-    padding: 20px;
-} */
+address strong {
+    font-size: 2rem;
+}
+
+.map-form {
+    display: grid;
+    grid-template-columns: 400px 1fr;
+}
+
+iframe {
+    grid-column: 1;
+    border: 0;
+    width: 400px;
+    height: 430px;
+}
+
+form {
+    grid-column: 2;
+    width: 100%;
+    max-width: 450px;
+    margin-left: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 380px;
+}
+
+.contact-item {
+    padding: 0.2rem;
+}
+
+input {
+    margin-left: 5rem;
+    font-size: 1rem;
+    height: 2rem;
+    width: 100%;
+    max-width: 250px;
+    /* border: 1px solid var(--black); */
+    border-radius: 5px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: 15px;
+}
+
+input[type="checkbox"] {
+    margin: 0;
+}
+
+/* Meaasge Purpose */
+.purposebody {
+    display: grid;
+    grid-template-columns: 10px 1fr;
+    align-items: center;
+    text-align: center;
+
+}
+
+.message-purpose {
+    grid-column: 1;
+    text-align: center;
+}
+
+.purposes {
+    grid-column: 2;
+    margin-left: 0;
+    margin-left: 2.2rem;
+    text-align: start;
+    font-weight: bold;
+}
+
+button {
+    margin: 1rem 0;
+    background-color: var(--accent1-color);
+    color: #fff;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: 1px solid var(--accent1-color);
+    width: 100%;
+    max-width: 380px;
+}
+
+button:hover,
+button:focus-visible {
+    background-color: rgb(0, 109, 0);
+}
+
+.enployee {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    position: relative;
+    margin-top: 5px;
+    width: 840px;
+    margin: 0 auto;
+}
+
+.enployee figure {
+    justify-self: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.enployee img {
+    width: 150px;
+    height: 150px;
+}
 
 footer nav img {
     width: 40px;

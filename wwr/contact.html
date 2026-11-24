@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>About Us | Rokel Community Rafting</title>
+  <title>Contact Us | Rokel Community Rafting</title>
   <meta name="description" content="Contact Rokel Community Rafting along the Waterloo Highway in Sierra Leone for trip bookings, general inquiries, directions, and group reservations.">
   <meta name="author" content="Sahr Joseph Gborie">
   <link rel="stylesheet" href="styles/rafting.css">
@@ -29,46 +29,85 @@
   <main>
     <!-- Address -->
     <address>
-      <strong>Rokel Community Rafting</strong><br>
+      <strong>Rokel Community Rafting Company</strong><br>
       Mile 18, Waterloo Highway,<br>
       Rokel Community, Western Area Rural, Sierra Leone <br>
-      <a href="tel:+23276555014">+232 76 555 014</a> / <a href="tel:+23288555019">+232 88 555 019</a><br>
-      <a href="mailto:info@rokelcommunityrafting.sl">info@rokelcommunityrafting.sl</a>
+      +232 76 555 014/+232 88 555 019<br>
+      info@rokelcommunityrafting.sl
     </address>
 
-    <div class="map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11163.939903963917!2d-13.096231853451078!3d8.396860821029009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssl!4v1795454249981!5m2!1sen!2ssl" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+    <!-- map -->
+    <div class="map-form">
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11163.939903963917!2d-13.096231853451078!3d8.396860821029009!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2ssl!4v1795454249981!5m2!1sen!2ssl" width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+      </div>
+
+      <!-- Form -->
+      <form action="contact">
+        <!-- Full Name -->
+        <div class="contact-item">
+          <!-- Full Name -->
+          <label for="fullname">Name
+            <input type="text" id="fullname" name="fullname" placeholder="placeholder">
+          </label>
+        </div>
+
+        <div class="contact-item">
+          <!-- Email -->
+          <label for="email">Email
+            <input type="email" id="email" name="email" placeholder="placeholder">
+          </label>
+        </div>
+
+        <div class="contact-item purposebody">
+          <!-- Message Purpose -->
+
+          <label for="message-purpose">Message <br>Purpose</label>
+
+          <div class="purposes">
+            <label for="inquiry"><input type="radio" id="inquiry" name="purpose"> General Inquiry</label><br>
+            <label for="question"><input type="radio" id="question" name="purpose"> Reservation Question</label><br>
+            <label for="suggestion"><input type="radio" id="suggestion" name="purpose"> Website Suggestion</label>
+          </div>
+
+        </div>
+
+        <div class="contact-item">
+          <!-- Message -->
+          <label for="message">Message <textarea name="message" id="message" rows="4" placeholder="Type here"></textarea></label>
+        </div>
+
+        <div class="contact-item newsletter">
+          <!-- Newsletter -->
+          <label for="newsletter"><input type="checkbox" id="newsletter" name="newsletter"> Please Subscribe me to the monthyly newsletter</label>
+        </div>
+
+
+        <!-- Submit button -->
+        <div class="buttondiv">
+          <button type="submit">Get in Touch!</button>
+        </div>
+
+      </form>
     </div>
-    <form action="contact">
-      <!-- Full Name -->
-      <label for="fullname">Name
-        <input type="text" id="fullname" name="fullname">
-      </label>
-      <!-- Email -->
-      <label for="email">Email
-        <input type="email" id="email" name="email">
-      </label>
+    <section class="enployee">
+      <h2>We Are Here to Serve You</h2>
+      <figure>
 
-      <!-- Message Purpose -->
+        <img class="imageone" src="images/adventure1.jpg" alt="Rafting team navigating splashy whitewater rapids on the Rokel River">
+        <figcaption>place title here</figcaption>
+      </figure>
+      <figure>
 
-      <label for="inquiry">
-        <input type="radio" id="inquiry" name="purpose" value="inquiry" required>
-        General inquiry
-      </label>
+        <img class="imageone" src="images/adventure2.jpg" alt="Calm morning paddle along a wide stretch of the Rokel River">
+        <figcaption>place title here</figcaption>
+      </figure>
+      <figure>
 
-      <label for="reservation">
-        <input type="radio" id="reservation" name="purpose" value="reservation">
-        Reservation Question
-      </label>
-
-      <label for="suggestion">
-        <input type="radio" id="suggestion" name="purpose" value="suggestion">
-        Website Suggestion
-      </label>
-
-    </form>
-
-    <h2>Send Us a Message</h2>
+        <img class="imageone" src="images/adventure5.jpg" alt="Rafters drifting peacefully on the Rokel River at sunset">
+        <figcaption>place title here</figcaption>
+      </figure>
+    </section>
   </main>
 
   <!-- Use the same header, navigation, and footer. -->
