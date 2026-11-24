@@ -343,6 +343,7 @@ button:focus-visible {
     width: 840px;
     margin: 0 auto 1rem;
     border: 2px solid var(--black);
+    background-color: var(--light-bg);
 }
 
 .employee h2 {
