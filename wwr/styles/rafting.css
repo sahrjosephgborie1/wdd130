@@ -85,7 +85,7 @@ article {
 
 }
 
-h1 {
+.hero h1 {
     position: absolute;
     top: 20px;
     left: 0;
@@ -236,13 +236,14 @@ address {
     font-weight: bold;
 }
 
-address strong {
+.contact-header h1 {
     font-size: 2rem;
 }
 
 .map-form {
     display: grid;
     grid-template-columns: 400px 1fr;
+    margin-bottom: 2rem;
 }
 
 iframe {
@@ -272,7 +273,7 @@ textarea {
 }
 
 input {
-    margin-left: 5rem;
+    margin-left: 4.5rem;
     font-size: 1rem;
     height: 2rem;
     width: 100%;
@@ -330,7 +331,7 @@ button:focus-visible {
     background-color: rgb(0, 109, 0);
 }
 
-.enployee {
+.employee {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -338,17 +339,27 @@ button:focus-visible {
     margin-top: 5px;
     width: 840px;
     margin: 0 auto;
+    border: 2px solid var(--black);
 }
 
-.enployee figure {
+.employee h2 {
+    color: var(--black);
+    grid-column: 1/4;
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--white);
+}
+
+.employee figure {
     justify-self: center;
     margin-top: 10px;
     margin-bottom: 10px;
     text-align: center;
 }
 
-.enployee img {
-    width: 150px;
+.employee img {
+    width: 200px;
     height: 150px;
 }
 
