@@ -360,7 +360,8 @@ button:focus-visible {
 
 .employee img {
     width: 200px;
-    height: 150px;
+    height: auto;
+    max-height: 150px;
 }
 
 footer nav img {
